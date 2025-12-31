@@ -1,0 +1,90 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f4f6f8;
+}
+
+.top-header {
+  background: #0b3c6d;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+.logo-bar img {
+  height: 50px;
+  margin: 0 8px;
+  vertical-align: middle;
+}
+
+.page-title {
+  background: linear-gradient(90deg, #0b3c6d, #1c5db6);
+  color: white;
+  padding: 25px;
+}
+
+.container {
+  display: flex;
+  padding: 20px;
+}
+
+.sidebar {
+  width: 250px;
+  background: white;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.sidebar ul {
+  padding-left: 18px;
+}
+
+.archive {
+  margin-top: 20px;
+  background: linear-gradient(180deg, orange, red);
+  padding: 15px;
+  border-radius: 10px;
+  color: white;
+}
+
+.archive button {
+  width: 100%;
+  margin-top: 10px;
+  padding: 8px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.content {
+  flex: 1;
+  margin-left: 20px;
+}
+
+.banner {
+  background: linear-gradient(90deg, orange, red);
+  color: white;
+  padding: 25px;
+  border-radius: 12px;
+}
+
+.banner.blue {
+  background: linear-gradient(90deg, #2a6df4, #1c3faa);
+}
+
+.year-section {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+}
+
+.hidden {
+  display: none;
+}
+
+.pdf-link {
+  display: inline-block;
+  margin-top: 15px;
+  color: #1c5db6;
+  font-weight: bold;
+}
